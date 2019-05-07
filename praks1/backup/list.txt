@@ -1,0 +1,49 @@
+total 8
+drwxr-xr-x 2 root   root   4096 Apr 16 03:58 .
+drwxr-xr-x 3 daniil daniil 4096 Apr 16 03:59 ..
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail1
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail2
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail3
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail4
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail5
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail6
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail7
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail8
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail9
+
+----2_list----
+total 24
+drwxr-xr-x 2 root   root   4096 Apr 16 04:15 .
+drwxr-xr-x 3 daniil daniil 4096 Apr 16 03:59 ..
+-rw-r--r-- 1 root   root     78 Apr 16 04:08 aine_andmed.txt
+-rw-r--r-- 1 root   root     29 Apr 16 04:10 date_andmed.txt
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail3
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail4
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail5
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail6
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail7
+-rw-r--r-- 1 root   root      0 Apr 16 03:58 fail8
+-rw-r--r-- 1 root   root    578 Apr 16 04:16 list.txt
+-rw-r--r-- 1 root   root    647 Apr 16 04:03 minu_andmed.txt
+----3_list----
+total 24
+drwxr-xr-x 2 root   root   4096 Apr 16 04:22 .
+drwxr-xr-x 3 daniil daniil 4096 Apr 16 04:22 ..
+-rw-r--r-- 1 root   root     78 Apr 16 04:08 aine_andmed.txt
+-rw-r--r-- 1 root   root     29 Apr 16 04:10 date_andmed.txt
+-rw-r--r-- 1 root   root   1240 Apr 16 04:22 list.txt
+-rw-r--r-- 1 root   root     31 Apr 16 04:17 minu_andmed.txt
+----backup_failid----
+total 28
+drwxr-xr-x 2 root root 4096 Apr 16 04:26 .
+drwxr-xr-x 3 root root 4096 Apr 16 04:36 ..
+-rw-r--r-- 1 root root   78 Apr 16 04:26 aine_andmed.txt
+-rw-r--r-- 1 root root   29 Apr 16 04:26 date_andmed.txt
+-rw-r--r-- 1 root root 1603 Apr 16 04:38 list.txt
+-rw-r--r-- 1 root root   31 Apr 16 04:26 minu_andmed.txt
+-rw-r--r-- 1 root root   15 Apr 16 04:26 test.txt
+----4_list----
+total 12
+drwxr-xr-x 3 root   root   4096 Apr 16 04:36 .
+drwxr-xr-x 3 daniil daniil 4096 Apr 16 04:22 ..
+drwxr-xr-x 2 root   root   4096 Apr 16 04:26 backup

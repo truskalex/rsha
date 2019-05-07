@@ -1,0 +1,150 @@
+    1  apt update   tegin arvutile update
+    2  apt upgrade
+    3  apt install tetris  
+    4  tetris
+    5  apt install bastet
+    6  bastet
+    7  bastet
+    8  tetris'
+    9  tetris
+   10  game
+   11  bastet
+   12  bastet
+   13  bastet
+   14  bastet
+   15  bastet
+   16  cd ~~
+   17  cd ~
+   18  bastet
+   19  user_ina 16.04.2019
+   20  history
+   21  touch fail{1..9}  tegin 9 faili
+   22  ls
+   23  rm -rf fail1 fail2 fail3 fail4 fail5 fail6
+   24  rm -rf fail7 fail8 fail9
+   25  ls   
+   26  exit  
+   27  mkdir praks1    tegin praks1 kausta
+   28  cd praks1/     läksin praks1 kausta sisse
+   29  touch fail{1..9}
+   30  ls
+   31  cd ..
+   32  mv ./praks1/ daniil/praks1
+   33  cd daniil/
+   34  ls
+   35  cd praks1/
+   36  ls
+   37  ls -la
+   38  ls -la > list.txt
+   39  ls
+   40  cat list.txt 
+   41  nano list.txt 
+   42  nano list.txt 
+   43  mv list.txt minu_andmed.txt
+   44  ls
+   45  nano fail9
+   46  nano fail
+   47  nano fail9
+   48  nano fail9
+   49  mv fail9 aine_andmed.txt
+   50  ls
+   51  date
+   52  date > fail2
+   53  cat fail2
+   54  mv fail2 date_andmed.txt
+   55  ls
+   56  ls -la
+   57  echo ----2_list----
+   58  cat minu_andmed.txt 
+   59  rm -rf fail1
+   60  echo total 8
+   61  drwxr-xr-x 2 root   root   4096 Apr 16 03:58 .
+   62  drwxr-xr-x 3 daniil daniil 4096 Apr 16 03:59 ..
+   63  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail1
+   64  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail2
+   65  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail3
+   66  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail4
+   67  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail5
+   68  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail6
+   69  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail7
+   70  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail8
+   71  -rw-r--r-- 1 root   root      0 Apr 16 03:58 fail9
+   72  nano list.txt
+   73  ls -la
+   74  echo ----2_list---- > list.txt
+   75  nano list.txt 
+   76  echo ----2_list---- >> list.txt
+   77  ls -la >> list.txt
+   78  cd list.txt 
+   79  cat list.txt 
+   80  nano minu_andmed.txt 
+   81  ls
+   82  ssh rshamih@172.23.13.20
+   83  ssh user@172.23.13.20
+   84  mv fail8 fail3 fail4 fail5 fail6 fail7 /home/daniil/
+   85  cd ..
+   86  ls
+   87  cd praks1/
+   88  ls
+   89  ls -la
+   90  echo ----3_list---- >> list.txt 
+   91  ls -la >> list.txt 
+   92  cat list.txt 
+   93  mkdir allalaadimised
+   94  cd allalaadimised/
+   95  wget -c https://anna.ikt.khk.ee/mihhail.karutin/avorgud/test.txt
+   96  ls
+   97  cat test.txt 
+   98  cd ..
+   99  ls
+  100  mkdir backup
+  101  ls
+  102  cp aine_andmed.txt  allalaadimised/ date_andmed.txt  list.txt  minu_andmed.txt 
+  103  cp aine_andmed.txt  allalaadimised/ date_andmed.txt  list.txt  minu_andmed.txt backup/
+  104  cp aine_andmed.txt  allalaadimised/test.txt date_andmed.txt  list.txt  minu_andmed.txt backup/
+  105  cd backup/
+  106  ls
+  107  echo ----backup_list---- >> ../list.txt 
+  108  ls -la >> ../list.txt
+  109  cd ..
+  110  ls
+  111  cat lsit.txt
+  112  cat list.txt
+  113  netstat
+  114  ip a
+  115  ifconfig
+  116  ifconfig
+  117  ip a
+  118  ip a >> ip.txt
+  119  cat ip.txt 
+  120  ssh user@172.23.13.20
+  121  scp ip.txt user@172.23.13.20:/home/user/isp217/daniil_gorbats
+  122  scp user@172.23.13.20:/home/user/isp217/a.txt /home/daniil/praks1/
+  123  date >> a.txt
+  124  echo daniil gorbats >> a.txt
+  125  cat a.txt
+  126  scp a.txt user@172.23.13.20:/home/user/isp217/daniil_gorbats
+  127  rm -rf ip.txt date_andmed.txt list.txt  minu_andmed.txt a.txt allalaadimised/test.txt aine_andmed.txt 
+  128  ls
+  129  rm -rf allalaadimised/
+  130  ls
+  131  ls -la
+  132  cd backup/
+  133  ls
+  134  cat list.txt 
+  135  echo ----backup_failid---- >> list.txt 
+  136  ls -la >> list.txt 
+  137  cd ..
+  138  ls
+  139  echo ----4_list---- backup/list.txt 
+  140  echo ----4_list---- >> backup/list.txt 
+  141  ls -la >> backup/list.txt 
+  142  scp backup/list.txt user@172.23.13.20:/home/user/isp217/daniil_gorbats
+  143  cd backup/
+  144  ls
+  145  cat test.txt 
+  146  echo daniil gorbats >> test.txt
+  147  date >> test.txt
+  148  scp backup/test.txt user@172.23.13.20:/home/user/isp217/daniil_gorbats
+  149  history
+  150  history >> history_daniil_gorbats.txt

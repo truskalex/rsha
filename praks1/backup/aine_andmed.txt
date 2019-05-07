@@ -1,0 +1,3 @@
+room: 409a
+aine: rakendusserverite automatiseerimine
+opetaja: Mihhail Karutin
