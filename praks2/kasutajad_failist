@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#
+kasutaja='cat /home/daniil/rsha/praks2/kasutaja_fail'
+while read kasutaja; do
+	useradd -r -m -s /bin/bash $kasutaja
+
+done < '/home/daniil/rsha/praks2/kasutaja_fail'
+	echo -e 'Tehtud järgmised kasutajad: '
+	cat '/home/daniil/rsha/praks2/kasutaja_fail'
+#
+# LÕPP
