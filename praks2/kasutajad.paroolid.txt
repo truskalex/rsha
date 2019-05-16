@@ -1,0 +1,3 @@
+kasutaja1:parool1
+kasutaja2:parool2
+kasutaja3:parool3
