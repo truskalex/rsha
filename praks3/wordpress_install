@@ -1,6 +1,10 @@
 #!/bin/bash
 #
 #
+sh apache_install
+sh php_install
+sh mysql_install
+sh phpmyadmin_install
 cd /var/www/html
 wget -c https://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
