@@ -3,10 +3,10 @@
 #
 if dpkg-query -W -f='${Status}' apache2 2>/dev/null | grep -c "ok installed" ; then
 # leiab kas on olemas sõnad ok installed , kui on, siis apache2 ei installi
-	echo -e "apache2 is already installed"
+	echo "apache2 is already installed"
 	systemctl status apache2
 # kui apache2 ei ole installitud, siis installib
 	else
-	echo -e "installing apache2"
+	echo "installing apache2"
 	apt install apache2 -y
 fi
