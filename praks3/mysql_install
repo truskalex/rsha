@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#
+if systemctl status mysql | grep -c "not-found" ; then
+# leiab kas on olemas sõnad not-found, kui leidis sõnad siis installib mysql
+        echo "installing mysql"
+        apt install mysql-server -y
+# näitab mysqli staatust
+	systemctl status mysql
+# kui mysql on juba installitud, siis ei installib
+	else
+        echo "mysql is already installed"
+        systemctl status mysql
+fi
